@@ -1,0 +1,13 @@
+# Dependencies for Claude Code CLI Bridge
+# Install with: pip install -r requirements-cli-bridge.txt
+
+# Core bridge dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pexpect==4.9.0
+
+# Testing
+requests==2.32.0
+
+# Note: Requires claude-code CLI to be installed and in PATH
+# Install Claude Code CLI from: https://claude.ai/code
